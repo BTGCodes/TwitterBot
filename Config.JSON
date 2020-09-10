@@ -1,0 +1,11 @@
+{
+  "twitter": {
+    "consumerKey": "",
+    "consumerSecret": "",
+    "accessToken": "",
+    "accessSecret": ""
+  },
+  "ignoreUsers" :[""],
+  "track" : [""]
+
+}
