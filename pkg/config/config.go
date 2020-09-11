@@ -26,7 +26,7 @@ type TwitterTokens struct  {
 type Config struct {
 	Tokens TwitterTokens `json:"twitter"`
 	IgnoreUsers []string `json:"ignoreUsers"`
-	track []string `json:"track"`
+	Track []string `json:"track"`
 }
 
 

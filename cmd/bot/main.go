@@ -21,7 +21,7 @@ func main() {
 	api.SetLogger(log)
 
 	stream := api.PublicStreamFilter(url.Values{
-		"track": []string{"#COVID19"},
+		"track": settings.Track,
 	})
 	defer stream.Stop()
 
@@ -52,7 +52,7 @@ func main() {
 		//like tweet!
 		_, err := api.Favorite(t.Id)
 		if err != nil {
-			logrus.Errorf("could not retweet %d:", t.Id)
+			logrus.Errorf("could not favorite twitter %d:", t.Id)
 		}
 
 		// retweet it!
