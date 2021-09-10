@@ -16,10 +16,10 @@ var (
 
 // Type TwitterTokens contains the API authenication for Twitter
 type TwitterTokens struct  {
-		ConsumerKey       string `json:"consumerKey"`
-		ConsumerSecret    string `json:"consumerSecret"`
-		AccessToken       string `json:"accessToken"`
-		AccessTokenSecret string `json:"accessSecret"`
+		ConsumerKey       string `json:"zhC07OL0ZcIGeMSBZgODBskMN"`
+		ConsumerSecret    string `json:"KTT9BYpMZQQKEPTd4xZb8HLlvFpum57ondUI0BVKGXF02b8T3u"`
+		AccessToken       string `json:"1195184321419714560-vs02UssUkUHOtrRfThPaErtPNrGit8"`
+		AccessTokenSecret string `json:"p8l33RFbGOA5SfM86OZETFg3zO1rxYXlc3WTolKGqiU7g"`
 }
 
 
